@@ -37,7 +37,8 @@ to create the same environment where we successfully run our codes.
 Datasets
 ------------------
 
-To process the data, you can follow the instructions provided in [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer) and [`Scanpath`](https://github.com/chenxy99/Scanpaths). 
+To process the data, you can follow the instructions provided in [`Scanpath`](https://github.com/chenxy99/Scanpaths) and [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer). 
+For handling the SS cluster, you can refer to [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer) and [`Target-absent-Human-Attention`](https://github.com/cvlab-stonybrook/Target-absent-Human-Attention).
 More specifically, you can run the following scripts to process the data
 
 ```bash
@@ -48,9 +49,6 @@ $ python ./src/preprocess/${dataset}/preprocess_fixations.py
 $ python ./src/preprocess/${dataset}/feature_extractor.py
 ```
 
-```bash
-$ python ./src/preprocess/${dataset}/feature_extractor.py
-```
 
 We structure `<dataset_root>` as follows
 
