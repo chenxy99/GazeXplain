@@ -63,7 +63,7 @@ class UnifiedScanpath(Dataset):
 
         # explanation
         air_explanation_dir = os.path.join(self.opt.dataset_dir, "AiR", "processed_data")
-        with open(join(air_explanation_dir, "explanation_manually.json"), "r") as f:
+        with open(join(air_explanation_dir, "explanation.json"), "r") as f:
             air_explanations = json.load(f)
 
         air_explanation_dict = {}
@@ -124,7 +124,7 @@ class UnifiedScanpath(Dataset):
 
         # explanation
         osie_explanation_dir = os.path.join(self.opt.dataset_dir, "OSIE", "processed")
-        with open(join(osie_explanation_dir, "explanation_manually.json"), "r") as f:
+        with open(join(osie_explanation_dir, "explanation.json"), "r") as f:
             osie_explanations = json.load(f)
 
         osie_explanation_dict = {}
@@ -182,7 +182,7 @@ class UnifiedScanpath(Dataset):
 
         # explanation
         cocotp_explanation_dir = os.path.join(self.opt.dataset_dir, "COCO/TP", "processed")
-        with open(join(cocotp_explanation_dir, "explanation_manually.json"), "r") as f:
+        with open(join(cocotp_explanation_dir, "explanation.json"), "r") as f:
             cocotp_explanations = json.load(f)
 
         cocotp_explanation_dict = {}
@@ -254,7 +254,7 @@ class UnifiedScanpath(Dataset):
 
         # explanation
         cocota_explanation_dir = os.path.join(self.opt.dataset_dir, "COCO/TA", "processed")
-        with open(join(cocota_explanation_dir, "explanation_manually.json"), "r") as f:
+        with open(join(cocota_explanation_dir, "explanation.json"), "r") as f:
             cocota_explanations = json.load(f)
 
         cocota_explanation_dict = {}
