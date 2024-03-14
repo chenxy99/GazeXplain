@@ -4,9 +4,6 @@ import argparse
 def parse_opt():
     parser = argparse.ArgumentParser(description="Scanpath prediction for images")
     parser.add_argument("--mode", type=str, default="train", help="Selecting running mode (default: train)")
-    parser.add_argument('--stimuli_dir', default="/home/AiR/stimuli", help='stimuli folder')
-    parser.add_argument('--fixation_dir', default="/home/AiR/processed_data", help='fixation folder')
-    parser.add_argument('--feature_dir', default="/home/AiR/image_features", help='feature folder')
     parser.add_argument('--dataset_dir', default="/home/", help='feature folder')
     parser.add_argument('--datasets', default=["AiR-D", "OSIE", "COCO-TP", "COCO-TA"], nargs='+', help='used dataset')
     parser.add_argument('--tiny', action="store_true", help='use the tiny dataset in debug')

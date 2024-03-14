@@ -483,12 +483,6 @@ def main():
                         dataset_idxes.extend(dataset_idx)
                         all_generated_ids.extend(generated_ids)
 
-                # accelerator.print(scanpath_prediction.shape)
-                # accelerator.print(gt_fixation.shape)
-                # accelerator.print(image_size.shape)
-                # accelerator.print(len(scores))
-                # accelerator.print(len(fixation_info))
-                # accelerator.print(len(idx_batch))
 
                 pbar.update()
 
@@ -540,12 +534,6 @@ def main():
                                                json_gt_scanpaths[iter]["subject"])
                 else:
                     raise "Invalid dataset"
-
-                # explanation_res.setdefault(key, []).append(
-                #     {
-                #         "caption": " ".join(blip_tokenizer.batch_decode(all_generated_ids[iter], skip_special_tokens=True)).strip(),
-                #     }
-                # )
 
                 tmp_caption = blip_tokenizer.batch_decode(all_generated_ids[iter], skip_special_tokens=True)
                 # tmp_caption = ["there is " + _ if len(_) > 0 else _ for _ in tmp_caption]
