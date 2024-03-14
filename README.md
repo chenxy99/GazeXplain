@@ -39,7 +39,8 @@ Datasets
 
 To process the data, you can follow the instructions provided in [`Scanpath`](https://github.com/chenxy99/Scanpaths) and [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer). 
 For handling the SS cluster, you can refer to [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer) and [`Target-absent-Human-Attention`](https://github.com/cvlab-stonybrook/Target-absent-Human-Attention).
-More specifically, you can run the following scripts to process the data
+The samples of GazeXplain dataset are available at [`Link`](https://drive.google.com/drive/folders/13-0j4wkCmab_8Uge30bwCd-vJ1k6gxzO?usp=sharing).
+More specifically, you can run the following scripts to process the data.
 
 ```bash
 $ python ./src/preprocess/${dataset}/preprocess_fixations.py
