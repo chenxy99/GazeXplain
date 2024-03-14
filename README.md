@@ -69,7 +69,7 @@ $ sh bash/train.sh
 ```
 
 Evaluate on test split
-------------------
+For inference, we provide the [`pretrained model`](https://drive.google.com/file/d/10WfTJOeF4LjsmILUTb0Z0tVOgdu0P21Q/view?usp=sharing), and you can directly run the following command to evaluate the performance of the pretrained model on test split.
 ```bash
 $ sh bash/test.sh
 ```
