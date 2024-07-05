@@ -10,7 +10,12 @@ Reference
 ------------------
 If you use our code or data, please cite our paper:
 ```text
-Anonymous submission for ECCV 2024, paper ID 1308.
+@inproceedings{xianyu:2024:gazexplain,
+    Author         = {Xianyu Chen and Ming Jiang and Qi Zhao},
+    Title          = {GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths},
+    booktitle      = {Proceedings of the European Conference on Computer Vision (ECCV)},
+    Year           = {2024}
+}
 ```
 
 Disclaimer
