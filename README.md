@@ -6,6 +6,10 @@ This code implements the prediction of visual scanpath along with its correspond
 - Visual Question Answering:  the prediction of scanpath during human performing general tasks, e.g., visual question answering, to reflect their attending and reasoning processes. (AiR-D)
 - Visual search: the prediction of scanpath during the search of the given target object to reflect the goal-directed behavior under target present and absent conditions. (COCO-Search18 Target-Present and Target-Absent)
 
+News <a name="news"></a>
+------------------
+- `[2024/07]` GazeXplain code and [datasets](#datasets) initially released.
+
 Reference
 ------------------
 If you use our code or data, please cite our paper:
@@ -39,12 +43,17 @@ $ conda env create -f environment.yml
 
 to create the same environment where we successfully run our codes.
 
-Datasets
+Datasets <a name="datasets"></a>
+------------------
+
+Our GazeXplain dataset is released! You can download the dataset from [`Link`](https://drive.google.com/drive/folders/13-0j4wkCmab_8Uge30bwCd-vJ1k6gxzO?usp=sharing). 
+This dataset contains the explanations of visual scanpaths in three different scanpath datasets (OSIE, AiR-D, COCO-Search18).
+
+Preprocess
 ------------------
 
 To process the data, you can follow the instructions provided in [`Scanpath`](https://github.com/chenxy99/Scanpaths) and [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer). 
 For handling the SS cluster, you can refer to [`Gazeformer`](https://github.com/cvlab-stonybrook/Gazeformer) and [`Target-absent-Human-Attention`](https://github.com/cvlab-stonybrook/Target-absent-Human-Attention).
-The samples of GazeXplain dataset are available at [`Link`](https://drive.google.com/drive/folders/13-0j4wkCmab_8Uge30bwCd-vJ1k6gxzO?usp=sharing).
 More specifically, you can run the following scripts to process the data.
 
 ```bash
