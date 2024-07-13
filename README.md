@@ -6,6 +6,8 @@ This code implements the prediction of visual scanpath along with its correspond
 - Visual Question Answering:  the prediction of scanpath during human performing general tasks, e.g., visual question answering, to reflect their attending and reasoning processes. (AiR-D)
 - Visual search: the prediction of scanpath during the search of the given target object to reflect the goal-directed behavior under target present and absent conditions. (COCO-Search18 Target-Present and Target-Absent)
 
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/chenxy99/GazeXplain)
+
 :fire: News <a name="news"></a>
 ------------------
 - `[2024/07]` GazeXplain code and [datasets](#datasets) initially released.
