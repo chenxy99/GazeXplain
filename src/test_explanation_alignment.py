@@ -20,6 +20,7 @@ parser = argparse.ArgumentParser(description="Scanpath evaluation")
 parser.add_argument('--save_metric', action='store_false')
 parser.add_argument('--split', default='test')
 parser.add_argument("--test_batch", type=int, default=16, help="Batch size")
+parser.add_argument('--dataset_dir', default="/home/", help='feature folder')
 parser.add_argument('--datasets', default=["AiR-D", "OSIE", "COCO-TP", "COCO-TA"], nargs='+', help='used dataset')
 parser.add_argument("--eval_repeat_num", type=int, default=1, help="Repeat number for evaluation")
 parser.add_argument('--tiny', action="store_true", help='use the tiny dataset in debug')
@@ -69,6 +70,7 @@ def main():
         opt.datasets = args.datasets
         opt.eval_repeat_num = args.eval_repeat_num
         opt.tiny = args.tiny
+        opt.dataset_dir = args.dataset_dir
 
 
         model_path = os.path.join(base, "checkpoints/ckpt_best")
