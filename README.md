@@ -6,7 +6,9 @@ This code implements the prediction of visual scanpath along with its correspond
 - Visual Question Answering:  the prediction of scanpath during human performing general tasks, e.g., visual question answering, to reflect their attending and reasoning processes. (AiR-D)
 - Visual search: the prediction of scanpath during the search of the given target object to reflect the goal-directed behavior under target present and absent conditions. (COCO-Search18 Target-Present and Target-Absent)
 
+[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2408.02788)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/chenxy99/GazeXplain)
+[![Video](https://img.shields.io/badge/YouTube-Video-c4302b?logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=kTv-dDUBOd8)
 
 :fire: News <a name="news"></a>
 ------------------
