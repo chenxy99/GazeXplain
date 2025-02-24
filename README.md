@@ -1,5 +1,15 @@
 # GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths
 
+<p align="center">
+  <a href="https://scholar.google.com/citations?hl=en&user=gjH1-CcAAAAJ">Xianyu Chen</a>,
+  <a href="https://scholar.google.com/citations?user=JbLTK4AAAAAJ&hl=en">Ming Jiang</a>, 
+  <a href="https://scholar.google.com/citations?user=JO40q04AAAAJ&hl=en">Qi (Catherine) Zhao</a>, 
+  <br><br>
+  University of Minnesota<br>
+  <br>
+<i><strong><a href='https://eccv2024.ecva.net/' target='_blank'>ECCV 2024 Oral</a></strong></i>
+</p>
+
 This code implements the prediction of visual scanpath along with its corresponding natural language explanations in three different tasks (3 different datasets) with two different architecture:
 
 - Free-viewing: the prediction of scanpath for looking at some salient or important object in the given image. (OSIE)
@@ -12,6 +22,7 @@ This code implements the prediction of visual scanpath along with its correspond
 
 :fire: News <a name="news"></a>
 ------------------
+- `[2024/08]` 🎉 Our paper is selected as an oral presentation.
 - `[2024/07]` GazeXplain code and [datasets](#datasets) initially released.
 
 :mega: Overview
