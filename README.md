@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://scholar.google.com/citations?hl=en&user=gjH1-CcAAAAJ">Xianyu Chen</a>,
   <a href="https://scholar.google.com/citations?user=JbLTK4AAAAAJ&hl=en">Ming Jiang</a>, 
-  <a href="https://scholar.google.com/citations?user=JO40q04AAAAJ&hl=en">Qi (Catherine) Zhao</a>, 
+  <a href="https://scholar.google.com/citations?user=JO40q04AAAAJ&hl=en">Qi (Catherine) Zhao</a>
   <br><br>
   University of Minnesota<br>
   <br>
